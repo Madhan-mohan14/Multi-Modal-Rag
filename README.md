@@ -18,10 +18,6 @@ Unlike traditional pipelines that strip away visual context, this system uses **
 ## 🏗️ System Architecture
 
 The pipeline follows a **"Parse-Then-Chunk"** architecture optimized for preserving document structure.
-
-
-<img width="1160" height="2299" alt="Untitled diagram-2025-11-29-080214" src="https://github.com/user-attachments/assets/f6c06661-07f6-4c1e-b747-12626bbc3092" />
-
 ---<img width="2816" height="1536" alt="Gemini_Generated_Image_2lty912lty912lty" src="https://github.com/user-attachments/assets/f7b34336-d969-49c9-af3e-725a1d6942c8" />
 
 ##📂 Project Structure
@@ -53,8 +49,9 @@ MULTI-DOC-PRO/
 │
 ├── 📄 requirements.txt       # Project Dependencies
 └── 📄 .env                   # API Keys (Excluded from Git)
+---
 
-##🌟 Key Features
+## 🌟 Key Features
 | **Feature**                 | **Description**                                                    | **Tech Stack**             |
 | --------------------------- | ------------------------------------------------------------------ | -------------------------- |
 | ``👀 Multi-Modal Vision``   | Parses PDFs as images to extract charts & tables into Markdown.    | LlamaParse, GPT-4o-mini    |
@@ -98,13 +95,13 @@ MULTI-DOC-PRO/
    python finish_grading.py
    ```
 ---
-##📊 Evaluation Results
+## 📊 Evaluation Results
 This system was rigorously tested using the Ragas framework against a "Golden Dataset" derived from the IMF Qatar Article IV Report.
 
 🏆 Score: 78% Faithfulness
 The system demonstrates high reliability (0.78), correctly refusing to answer when data is missing (e.g., specific regulatory measures vs. objectives), effectively mitigating hallucinations.
 
-##📜 License
+## 📜 License
 Proprietary & Confidential. Copyright (c) 2025 Madhan Mohan. All Rights Reserved.
 
 Permitted: Viewing for educational/evaluation purposes.
