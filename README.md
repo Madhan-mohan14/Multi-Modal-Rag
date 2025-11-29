@@ -1,4 +1,4 @@
-# 🤖 Multi-Doc Pro: Multi-Modal RAG Agent
+# 🤖 Multi-Doc Pro: Multi-Modal RAG Agent v2.0
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-UI-ff4b4b?logo=streamlit&logoColor=white)
