@@ -9,9 +9,6 @@ persist/
 chroma_db/
 chroma_db_prod/
 
-# Ignore uploaded documents (privacy & size)
-data/uploads/*
-!data/uploads/.gitkeep  # Keep the folder structure, just not files
 
 # --- Python Standard ---
 __pycache__/
