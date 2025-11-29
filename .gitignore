@@ -1,0 +1,27 @@
+# --- Security (CRITICAL) ---
+.env
+.env.local
+api_keys.txt
+
+# --- RAG & Data Specific ---
+# Ignore the actual vector DB (it's heavy and rebuildable)
+persist/
+chroma_db/
+chroma_db_prod/
+
+# Ignore uploaded documents (privacy & size)
+data/uploads/*
+!data/uploads/.gitkeep  # Keep the folder structure, just not files
+
+# --- Python Standard ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# --- OS & Editor ---
+.DS_Store
+.vscode/
+.idea/

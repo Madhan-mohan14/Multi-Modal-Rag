@@ -1,0 +1,28 @@
+# --- Core Application ---
+streamlit
+python-dotenv
+python-docx
+
+# --- LangChain Ecosystem ---
+langchain
+langchain-community
+langchain-core
+langchain-groq
+langchain-google-genai
+
+# --- Vector Database ---
+# "langchain-chroma" is the official connector. 
+# It will automatically install the correct "chromadb" version.
+langchain-chroma
+chromadb
+
+# --- Ingestion & Parsing ---
+llama-parse
+
+# --- Advanced RAG (Re-ranking) ---
+flashrank
+
+# --- Evaluation & Data ---
+ragas
+datasets
+pandas
