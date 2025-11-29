@@ -21,7 +21,11 @@ The pipeline follows a **"Parse-Then-Chunk"** architecture optimized for preserv
 ---<img width="2816" height="1536" alt="Gemini_Generated_Image_2lty912lty912lty" src="https://github.com/user-attachments/assets/f7b34336-d969-49c9-af3e-725a1d6942c8" />
 
 ## 📂 Project Structure
+## 📂 Project Structure
+
+```text
 MULTI-DOC-PRO/
+│
 ├── 📁 .streamlit/            # Streamlit UI configuration (Theme, Colors)
 ├── 📁 data/                  # Raw Data Storage (PDFs/Images)
 │   └── 📄 qatar_imf.pdf      # (Sample) Financial Report for Testing
