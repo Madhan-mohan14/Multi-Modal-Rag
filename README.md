@@ -21,7 +21,6 @@ The pipeline follows a **"Parse-Then-Chunk"** architecture optimized for preserv
 ---<img width="2816" height="1536" alt="Gemini_Generated_Image_2lty912lty912lty" src="https://github.com/user-attachments/assets/f7b34336-d969-49c9-af3e-725a1d6942c8" />
 
 ## 📂 Project Structure
-## 📂 Project Structure
 
 ```text
 MULTI-DOC-PRO/
@@ -53,7 +52,8 @@ MULTI-DOC-PRO/
 │
 ├── 📄 requirements.txt       # Project Dependencies
 └── 📄 .env                   # API Keys (Excluded from Git)
-
+```
+---
 
 ## 🌟 Key Features
 | **Feature**                 | **Description**                                                    | **Tech Stack**             |
