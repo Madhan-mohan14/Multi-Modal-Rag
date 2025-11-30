@@ -98,6 +98,8 @@ MULTI-DOC-PRO/
    ```bash
    python finish_grading.py
    ```
+   please run the questions which are displayed in demo and use clear chat for using quick examples or else directly ask question
+   it uses top 5 results so for better results run twice
 ---
 ## 📊 Evaluation Results
 This system was rigorously tested using the Ragas framework against a "Golden Dataset" derived from the IMF Qatar Article IV Report.
